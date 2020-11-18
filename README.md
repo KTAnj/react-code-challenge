@@ -1,4 +1,5 @@
 # react-code-challenge
+First clone my project.
 
 In the front-end directory, you can run:
 1) ### `npm install`
