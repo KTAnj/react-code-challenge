@@ -7,7 +7,7 @@ const getItems = () => {
         dispatch({
             type: 'GET_ITEMS_REQUEST'
         })
-        API.get('todosh?_limit=10').then(res => {
+        API.get('todos?_limit=10').then(res => {
             dispatch({
                 type: 'GET_ITEMS_SUCCESS',
                 payload: res.data,
